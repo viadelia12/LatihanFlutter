@@ -15,6 +15,6 @@ class lingkaran extends bangun_datar{
 
   @override
   double luas(){
-    return _radius * _radius;
+    return phi * _radius * _radius;
   }
 }
